@@ -1,0 +1,65 @@
+$primary-color: #ffcc19;
+$secondary-color: #26282d;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    .header-counter {
+        height: 85px;
+
+        background-color: $secondary-color;
+
+        .counter-child {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .order {
+                .link {
+                    width: 100px;
+                    height: 30px;
+                    padding: 10px 3px;
+                    text-decoration: none;
+                    font-family: "Antarctican Headline", Sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    fill: $secondary-color;
+                    color: $secondary-color;
+                    background-color: $primary-color;
+                    border-radius: 8px 8px 8px 8px;
+                }
+
+                .order-text {
+                    color: black;
+                }
+            }
+
+            .logo {
+                .logo-img {
+                    width: 450px;
+                    height: 60px;
+                }
+            }
+
+            .burger-menu {
+                .btn {
+
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+
+                    .burger-icon {
+                        color: $primary-color;
+                        font-size: 46px;
+                    }
+                }
+            }
+        }
+    }
+}
